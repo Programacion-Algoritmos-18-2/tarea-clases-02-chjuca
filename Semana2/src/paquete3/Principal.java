@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package semana2;
+package paquete3;
 
 /**
  *
@@ -17,9 +17,8 @@ public class Principal {
     public static void main(String[] args) {
         Precio p;
         p = new Precio();
-        System.out.println(p.euros);
-        p.euros=10.1;
-        System.out.println(p.euros);
-    }
-
+        Precio n = new Precio(34.5);
+        System.out.println(p.obtener());
+        System.out.println(n.obtener());
+       }
 }
